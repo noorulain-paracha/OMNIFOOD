@@ -88,4 +88,23 @@ $(document).ready(function() {
         offset:'50%'
     });
     
+    /* Mobile Navigation */
+    
+    $('.js--nav-icon').click(function() {
+        var nav = $('.js--main-nav');
+        var icon = $('.js--nav-icon ion-icon');
+        
+        nav.slideToggle(200);
+        if (icon.hasClass('reorder-three')) {
+            icon.addClass('ion-close');
+            icon.removeClass('reorder-three');
+            
+        } else {
+            icon.addClass('reorder-three');
+            icon.removeClass('ion-close');
+            
+        }
+        
+    });
+    
 });

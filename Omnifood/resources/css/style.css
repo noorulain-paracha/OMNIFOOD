@@ -281,6 +281,19 @@ header {
     
 }
 
+/* Mobile Navigation */
+.mobile-nav-icon {
+    float: right;
+    margin-top: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+.reorder-three {
+    font-size: 200%;
+    color: #fff;
+}
+
 
 /* ------Sticky Navi------------ */
 
